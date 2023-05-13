@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="mol" type="text"/>
+    <button onclick="addtodo()"> press me</button>
+    
+<script>
+
+
+    let todos = ["wash car", "get gocery", "make dinner"];
+   
+
+    
+    
+    
+    todos.forEach(function tolu(tayo) {
+        let element = document.createElement('div');
+        element.innerText = (tayo);
+        document.body.appendChild(element);
+
+
+    });
+    function addtodo() {
+        let textbox = document.getElementById("mol");
+        let title = textbox.value
+        todos.push(title);
+        
+    }
+</script>
+</body>
+</html>
+

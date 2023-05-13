@@ -1,0 +1,30 @@
+.mic {
+    width: 7px;
+    margin-left: 10px;
+}
+.search {
+    width: 10px;
+    margin-right: 15px;
+
+}
+.input {
+    border-style: none;
+    margin-right: 300px;
+    
+}
+.div {
+    display: flex;
+    border-style: solid;
+    justify-content: space-between;
+    width: 500px;
+    border-radius: 20px;
+    align-items: center;
+    height: 25px;
+    margin-left: 300px;
+    margin-top: 40px;
+    box-shadow: 10px, 10px,10px yellow
+}
+.k {
+    margin-left: 350px;
+    margin-top: 400px;
+}
